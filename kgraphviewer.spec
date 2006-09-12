@@ -2,11 +2,10 @@
 Summary:	GraphViz dot graph viewer for KDE
 Summary(pl):	Przegl±darka grafów zapisanych w formacie dot
 Name:		kgraphviewer
-Version:	0.99.0
+Version:	1.0.2
 Release:	1
 License:	GPL v2
 Group:		Applications
-#Source0:	http://download.gna.org/kgraphviewer/%{name}-%{version}.tar.bz2
 Source0:	http://svn.gna.org/daily/%{name}-snapshot.tar.gz
 # Source0-md5:	d880eb8fe04523b075e20053421f49bf
 URL:		http://gna.org/projects/kgraphviewer
