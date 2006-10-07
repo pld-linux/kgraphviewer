@@ -1,6 +1,5 @@
-#
 Summary:	GraphViz dot graph viewer for KDE
-Summary(pl):	Przegl±darka grafów zapisanych w formacie dot
+Summary(pl):	Przegl±darka grafów dot GraphViza dla KDE
 Name:		kgraphviewer
 Version:	1.0.2
 Release:	1
@@ -11,8 +10,7 @@ Source0:	http://svn.gna.org/daily/%{name}-snapshot.tar.gz
 URL:		http://gna.org/projects/kgraphviewer
 BuildRequires:	graphviz
 BuildRequires:	kdelibs-devel
-BuildRequires:	python >= 2.3
-BuildRequires:	qt-devel
+BuildRequires:	python >= 1:2.3
 BuildRequires:	scons >= 0.96
 Requires:	graphviz
 Requires:	kdelibs
@@ -37,20 +35,20 @@ the following features:
 - internationalization (currently eng, fre)
 
 %description -l pl
-KGraphViewer jest przegl±dark± grafów zapisanych w formacie dot.
-Mo¿liwo¶ci:
+KGraphViewer jest przeznaczon± dla KDE przegl±dark± grafów GraphViza
+zapisanych w formacie dot. Ma nastêpuj±ce mo¿liwo¶ci:
 - drukowanie
-- zooming
+- powiêkszanie
 - ³adowanie grafów do osobnych zak³adek
-- lista ostatnio otwieranych plików
+- listê ostatnio otwieranych plików
 - ponowne ³adowanie plików rêczne i automatyczne
 - widok z lotu ptaka
 - przesuwanie grafu za pomoc± przeci±gania
-- perfekcyjna obs³uga grafów z graphviza w wersji 2.2.1, wystêpuj±
-  problemy z wersj± 2.8
-- automatyczny wybór "dot" dla grafu skierowanego i "neato" dla grafu
-  nieskierowanego; mo¿liwo¶æ wybrania dowolnego programu do utworzenia
-  pliku w formacie xdot
+- (prawie) perfekcyjn± obs³ugê wszystkich grafów przyk³adowych z
+  graphviza (w wersji 2.2.1), wystêpuj± problemy z wersj± 2.8
+- automatyczny wybór "dot" dla grafów skierowanych i "neato" dla
+  grafów nieskierowanych; mo¿liwo¶æ wybrania dowolnego programu do
+  utworzenia pliku w formacie xdot
 - otwarcie nowej instancji jako nowej zak³adki w istniej±cym oknie
   (konfigurowalne)
 - system pomocy: przewodnik u¿ytkownika i pomoc w czasie dzia³ania
@@ -96,8 +94,8 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_bindir}/*
 %attr(755,root,root) %{_libdir}/kde3/*
 %{_desktopdir}/%{name}.desktop
-%{_datadir}/apps/%{name}/*
-%{_datadir}/apps/%{name}part/*
+%{_datadir}/apps/%{name}
+%{_datadir}/apps/%{name}part
 %{_datadir}/config.kcfg/*.kcfg
 %{_datadir}/mimelnk/application/*.desktop
 %{_datadir}/services/%{name}_part.desktop
