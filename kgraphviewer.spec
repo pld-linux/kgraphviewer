@@ -1,5 +1,5 @@
 Summary:	GraphViz dot graph viewer for KDE
-Summary(pl.UTF-8):   Przeglądarka grafów dot GraphViza dla KDE
+Summary(pl.UTF-8):	Przeglądarka grafów dot GraphViza dla KDE
 Name:		kgraphviewer
 Version:	1.0.2
 Release:	1
