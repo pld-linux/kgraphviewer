@@ -1,5 +1,5 @@
 Summary:	GraphViz dot graph viewer for KDE
-Summary(pl):	Przegl±darka grafów dot GraphViza dla KDE
+Summary(pl.UTF-8):   PrzeglÄ…darka grafÃ³w dot GraphViza dla KDE
 Name:		kgraphviewer
 Version:	1.0.2
 Release:	1
@@ -34,26 +34,26 @@ the following features:
 - help system: run-time documentation and user guide
 - internationalization (currently eng, fre)
 
-%description -l pl
-KGraphViewer jest przeznaczon± dla KDE przegl±dark± grafów GraphViza
-zapisanych w formacie dot. Ma nastêpuj±ce mo¿liwo¶ci:
+%description -l pl.UTF-8
+KGraphViewer jest przeznaczonÄ… dla KDE przeglÄ…darkÄ… grafÃ³w GraphViza
+zapisanych w formacie dot. Ma nastÄ™pujÄ…ce moÅ¼liwoÅ›ci:
 - drukowanie
-- powiêkszanie
-- ³adowanie grafów do osobnych zak³adek
-- listê ostatnio otwieranych plików
-- ponowne ³adowanie plików rêczne i automatyczne
+- powiÄ™kszanie
+- Å‚adowanie grafÃ³w do osobnych zakÅ‚adek
+- listÄ™ ostatnio otwieranych plikÃ³w
+- ponowne Å‚adowanie plikÃ³w rÄ™czne i automatyczne
 - widok z lotu ptaka
-- przesuwanie grafu za pomoc± przeci±gania
-- (prawie) perfekcyjn± obs³ugê wszystkich grafów przyk³adowych z
-  graphviza (w wersji 2.2.1), wystêpuj± problemy z wersj± 2.8
-- automatyczny wybór "dot" dla grafów skierowanych i "neato" dla
-  grafów nieskierowanych; mo¿liwo¶æ wybrania dowolnego programu do
+- przesuwanie grafu za pomocÄ… przeciÄ…gania
+- (prawie) perfekcyjnÄ… obsÅ‚ugÄ™ wszystkich grafÃ³w przykÅ‚adowych z
+  graphviza (w wersji 2.2.1), wystÄ™pujÄ… problemy z wersjÄ… 2.8
+- automatyczny wybÃ³r "dot" dla grafÃ³w skierowanych i "neato" dla
+  grafÃ³w nieskierowanych; moÅ¼liwoÅ›Ä‡ wybrania dowolnego programu do
   utworzenia pliku w formacie xdot
-- otwarcie nowej instancji jako nowej zak³adki w istniej±cym oknie
+- otwarcie nowej instancji jako nowej zakÅ‚adki w istniejÄ…cym oknie
   (konfigurowalne)
-- system pomocy: przewodnik u¿ytkownika i pomoc w czasie dzia³ania
+- system pomocy: przewodnik uÅ¼ytkownika i pomoc w czasie dziaÅ‚ania
   programu
-- umiêdzynarodowiony (aktualnie jêzyki angielski i francuski)
+- umiÄ™dzynarodowiony (aktualnie jÄ™zyki angielski i francuski)
 
 %prep
 %setup -q -n %{name}
